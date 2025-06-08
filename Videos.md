@@ -29,7 +29,8 @@ In this section, only **STM32**-related videos are available. These videos are g
 📁 STM32 Microcontrollers
 │
 └── Fundamental
-    └── [aKaReZa 101 - STM32, Introduction - PART A]
+    ├── [aKaReZa 101 - STM32, Introduction - PART A]
+    └── [aKaReZa 103 - STM32, Introduction - PART B]
 ```
 
 <table style="border-collapse: collapse;">
