@@ -51,6 +51,24 @@ In this section, only **STM32**-related videos are available. These videos are g
       </a>
     </td>
   </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/OK6pVpMzP64">aKaReZa 103 – STM32, Introduction - PART B</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Dive deeper into STM32 microcontrollers with essential software tools. This video covers MCU Finder, STLink Utility, Cube Programmer, CubeMX, CubeIDE, and coding layers like CMSIS, HAL, LL, and SPL. Learn about bootloader programming, minimum hardware requirements, and pin compatibility for STM32 projects.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/OK6pVpMzP64">
+        <img src="https://img.youtube.com/vi/OK6pVpMzP64/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 103 – STM32, Introduction - PART B Thumbnail"/>
+      </a>
+    </td>
+  </tr>   
 </table>
 
 # 🌟 Support Me
