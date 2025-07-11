@@ -30,7 +30,18 @@ In this section, only **STM32**-related videos are available. These videos are g
 │
 └── Fundamental
     ├── [aKaReZa 101 - STM32, Introduction - PART A]
+    │   ├─ Overview — STMicroelectronics, ARM, Cortex classifications.
+    │   ├─ STM32 Naming — Series breakdown and STM32F103C8T6 intro.
+    │   ├─ Programmers — Types and usage.
+    │   └─ Bootloader — Programming methods explained.
+    │
     └── [aKaReZa 103 - STM32, Introduction - PART B]
+        ├─ Tools — MCU Finder, STLink Utility, Cube Programmer/CLI.
+        ├─ Monitors — STM Studio, Cube Monitor, Cube Power.
+        ├─ IDEs — CubeMX, CubeIDE hands-on.
+        ├─ Code Layers — CMSIS, HAL, LL, SPL comparison.
+        ├─ Hardware — Minimum requirements and pin compatibility.
+        └─ STLINK-V3 MiniE — Setup tips and use cases.
 ```
 
 <table style="border-collapse: collapse;">
