@@ -34,10 +34,6 @@ It is part of the STM32 family and is widely used in embedded systems, IoT devic
   </tr>  
 </table>
 
-
-
-
-
 ## Key Features
 - **Core**: ARM Cortex-M3 32-bit RISC core.
 - **Clock Speed**: Up to 72 MHz.
@@ -91,10 +87,23 @@ It is part of the STM32 family and is widely used in embedded systems, IoT devic
   ---  
   All educational videos related to this topic are available at this link.  
 
+- [Minimun Hardware](./minHW.md)  
+  ---  
+  This document explains the minimal required hardware setup to power up and properly boot the STM32 microcontroller.
+
 - [STM32 Packages](./packages.md)  
   ---  
   This section offers download links for STM32Cube MCU Firmware Packages and Keil DFU (Device Firmware Update) packages.  
   These packages include essential libraries, drivers, and middleware to enhance and expedite the development, programming, and debugging of STM32 microcontrollers.
+  
+- [eBoard STM32F103C8](https://github.com/aKaReZa75/eBoard_STM32F103C8)  
+  ---  
+  A complete design, assembly, and testing project for an educational header board based on the STM32F103C8 microcontroller, fully compatible with the Arduino UNO form factor. Ideal for learning, prototyping, and experimenting with STM32 peripherals.
+  
+- [STM32 RawProject](https://github.com/aKaReZa75/STM32_RawProject_HAL)  
+  ---  
+  A lightweight and structured STM32F103C8 project template using STM32CubeMX and HAL, tailored for Keil uVision. Includes essential setup files to quickly start new embedded projects with a solid foundation.
+  
     
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
