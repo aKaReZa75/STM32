@@ -28,20 +28,29 @@ In this section, only **STM32**-related videos are available. These videos are g
 ```plaintext
 📁 STM32 Microcontrollers
 │
-└── Fundamental
-    ├── [aKaReZa 101 - STM32, Introduction - PART A]
-    │   ├─ Overview — STMicroelectronics, ARM, Cortex classifications.
-    │   ├─ STM32 Naming — Series breakdown and STM32F103C8T6 intro.
-    │   ├─ Programmers — Types and usage.
-    │   └─ Bootloader — Programming methods explained.
-    │
-    └── [aKaReZa 103 - STM32, Introduction - PART B]
-        ├─ Tools — MCU Finder, STLink Utility, Cube Programmer/CLI.
-        ├─ Monitors — STM Studio, Cube Monitor, Cube Power.
-        ├─ IDEs — CubeMX, CubeIDE hands-on.
-        ├─ Code Layers — CMSIS, HAL, LL, SPL comparison.
-        ├─ Hardware — Minimum requirements and pin compatibility.
-        └─ STLINK-V3 MiniE — Setup tips and use cases.
+├── Fundamental
+│   ├── [aKaReZa 101 - Introduction - PART A]
+│   │     ├─ Overview — STMicroelectronics, ARM, Cortex classifications.
+│   │     ├─ STM32 Naming — Series breakdown and STM32F103C8T6 intro.
+│   │     ├─ Programmers — Types and usage.
+│   │     └─ Bootloader — Programming methods explained.
+│   │
+│   └── [aKaReZa 103 - Introduction - PART B]
+│         ├─ Tools — MCU Finder, STLink Utility, Cube Programmer/CLI.
+│         ├─ Monitors — STM Studio, Cube Monitor, Cube Power.
+│         ├─ IDEs — CubeMX, CubeIDE hands-on.
+│         ├─ Code Layers — CMSIS, HAL, LL, SPL comparison.
+│         ├─ Hardware — Minimum requirements and pin compatibility.
+│         └─ STLINK-V3 MiniE — Setup tips and use cases.
+│
+└── Hands-on STM32
+    └── [aKaReZa 115 - First Project - PART A]
+          ├─ Hardware — Overview and setup.
+          ├─ CubeMX — Project creation and System Core config.
+          ├─ Clock Tree — Precise configuration.
+          ├─ Project Manager — Navigation and settings.
+          ├─ Packages — Cube and Keil DFP (online/offline).
+          └─ Code Gen — Modes and structure.
 ```
 
 <table style="border-collapse: collapse;">
@@ -80,6 +89,24 @@ In this section, only **STM32**-related videos are available. These videos are g
       </a>
     </td>
   </tr>   
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/E2W5Y3cPvDQ">aKaReZa 115 – STM32, First Project - PART A</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Kickstart your STM32 journey by setting up your first bare project. This video covers hardware overview, STM32CubeMX configuration, clock tree setup, Cube Package and Keil DFP installation (online/offline), and code generation modes—perfect for building a solid foundation in STM32 development.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/E2W5Y3cPvDQ">
+        <img src="https://img.youtube.com/vi/E2W5Y3cPvDQ/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 115 – STM32, First Project - PART A Thumbnail"/>
+      </a>
+    </td>
+  </tr>  
 </table>
 
 # 🌟 Support Me
