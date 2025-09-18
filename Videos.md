@@ -44,13 +44,21 @@ In this section, only **STM32**-related videos are available. These videos are g
 │         └─ STLINK-V3 MiniE — Setup tips and use cases.
 │
 └── Hands-on STM32
-    └── [aKaReZa 115 - First Project - PART A]
-          ├─ Hardware — Overview and setup.
-          ├─ CubeMX — Project creation and System Core config.
-          ├─ Clock Tree — Precise configuration.
-          ├─ Project Manager — Navigation and settings.
-          ├─ Packages — Cube and Keil DFP (online/offline).
-          └─ Code Gen — Modes and structure.
+    ├── [aKaReZa 115 - First Project - PART A]
+    │     ├─ Hardware — Overview and setup.
+    │     ├─ CubeMX — Project creation and System Core config.
+    │     ├─ Clock Tree — Precise configuration.
+    │     ├─ Project Manager — Navigation and settings.
+    │     ├─ Packages — Cube and Keil DFP (online/offline).
+    │     └─ Code Gen — Modes and structure.
+    │
+    └── [aKaReZa 118 - First Project - PART B]
+          ├─ Compilation — Building and reviewing output files.
+          ├─ Programming — Flashing via hardware programmer.
+          ├─ Debugging — Register inspection and `printf` usage.
+          ├─ Monitoring — STM Studio for live variable tracking.
+          ├─ Simulation — Proteus-based STM32 testing.
+          └─ Tips — CubeMX refinements and runtime insights.
 ```
 
 <table style="border-collapse: collapse;">
@@ -107,6 +115,25 @@ In this section, only **STM32**-related videos are available. These videos are g
       </a>
     </td>
   </tr>  
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/AEv270zCDno">aKaReZa 118 – STM32, First Project - PART B</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Transition from setup to hands-on testing in your STM32 project. This video walks through compilation, flashing, debugging with <code>printf</code>, real-time variable monitoring via STM Studio, and Proteus simulation. Ideal for developers ready to validate and analyze their STM32 applications with precision.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/AEv270zCDno">
+        <img src="https://img.youtube.com/vi/AEv270zCDno/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 118 – STM32, First Project - PART B Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+  
 </table>
 
 # 🌟 Support Me
