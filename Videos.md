@@ -52,13 +52,21 @@ In this section, only **STM32**-related videos are available. These videos are g
     │     ├─ Packages — Cube and Keil DFP (online/offline).
     │     └─ Code Gen — Modes and structure.
     │
-    └── [aKaReZa 118 - First Project - PART B]
-          ├─ Compilation — Building and reviewing output files.
-          ├─ Programming — Flashing via hardware programmer.
-          ├─ Debugging — Register inspection and `printf` usage.
-          ├─ Monitoring — STM Studio for live variable tracking.
-          ├─ Simulation — Proteus-based STM32 testing.
-          └─ Tips — CubeMX refinements and runtime insights.
+    ├── [aKaReZa 118 - First Project - PART B]
+    │     ├─ Compilation — Building and reviewing output files.
+    │     ├─ Programming — Flashing via hardware programmer.
+    │     ├─ Debugging — Register inspection and `printf` usage.
+    │     ├─ Monitoring — STM Studio for live variable tracking.
+    │     ├─ Simulation — Proteus-based STM32 testing.
+    │     └─ Tips — CubeMX refinements and runtime insights.
+    │
+    └── [aKaReZa 121 - First Project - PART C]
+          ├─ Keil IDE — Logic Analyzer, Simulator, advanced tips.
+          ├─ Export — Variable logging and external analysis.
+          ├─ CubeProgrammer — Flashing and memory inspection.
+          ├─ CubeMX — Advanced configuration tips.
+          ├─ Clock — HSI calibration and HSI vs HSE comparison.
+          └─ ST-Link — Interface setup and usage.
 ```
 
 <table style="border-collapse: collapse;">
@@ -130,6 +138,24 @@ In this section, only **STM32**-related videos are available. These videos are g
         <img src="https://img.youtube.com/vi/AEv270zCDno/maxresdefault.jpg"
              width="360"
              alt="aKaReZa 118 – STM32, First Project - PART B Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/E4TNTPMgJMo">aKaReZa 121 – STM32, First Project - PART C</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Dive into STM32 development tools with this hands-on guide. Learn to use Keil’s Logic Analyzer and Simulator, export variables for external analysis, flash and inspect memory with STM32CubeProgrammer, calibrate HSI, compare HSI vs. HSE, and master the ST-Link interface—perfect for refining and debugging your STM32 applications.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/E4TNTPMgJMo">
+        <img src="https://img.youtube.com/vi/E4TNTPMgJMo/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 121 – STM32, First Project - PART C Thumbnail"/>
       </a>
     </td>
   </tr>
