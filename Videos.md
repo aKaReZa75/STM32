@@ -43,30 +43,40 @@ In this section, only **STM32**-related videos are available. These videos are g
 │         ├─ Hardware — Minimum requirements and pin compatibility.
 │         └─ STLINK-V3 MiniE — Setup tips and use cases.
 │
-└── Hands-on STM32
-    ├── [aKaReZa 115 - First Project - PART A]
-    │     ├─ Hardware — Overview and setup.
-    │     ├─ CubeMX — Project creation and System Core config.
-    │     ├─ Clock Tree — Precise configuration.
-    │     ├─ Project Manager — Navigation and settings.
-    │     ├─ Packages — Cube and Keil DFP (online/offline).
-    │     └─ Code Gen — Modes and structure.
-    │
-    ├── [aKaReZa 118 - First Project - PART B]
-    │     ├─ Compilation — Building and reviewing output files.
-    │     ├─ Programming — Flashing via hardware programmer.
-    │     ├─ Debugging — Register inspection and `printf` usage.
-    │     ├─ Monitoring — STM Studio for live variable tracking.
-    │     ├─ Simulation — Proteus-based STM32 testing.
-    │     └─ Tips — CubeMX refinements and runtime insights.
-    │
-    └── [aKaReZa 121 - First Project - PART C]
-          ├─ Keil IDE — Logic Analyzer, Simulator, advanced tips.
-          ├─ Export — Variable logging and external analysis.
-          ├─ CubeProgrammer — Flashing and memory inspection.
-          ├─ CubeMX — Advanced configuration tips.
-          ├─ Clock — HSI calibration and HSI vs HSE comparison.
-          └─ ST-Link — Interface setup and usage.
+├── Hands-on STM32
+│   ├── [aKaReZa 115 - First Project - PART A]
+│   │     ├─ Hardware — Overview and setup.
+│   │     ├─ CubeMX — Project creation and System Core config.
+│   │     ├─ Clock Tree — Precise configuration.
+│   │     ├─ Project Manager — Navigation and settings.
+│   │     ├─ Packages — Cube and Keil DFP (online/offline).
+│   │     └─ Code Gen — Modes and structure.
+│   │
+│   ├── [aKaReZa 118 - First Project - PART B]
+│   │     ├─ Compilation — Building and reviewing output files.
+│   │     ├─ Programming — Flashing via hardware programmer.
+│   │     ├─ Debugging — Register inspection and `printf` usage.
+│   │     ├─ Monitoring — STM Studio for live variable tracking.
+│   │     ├─ Simulation — Proteus-based STM32 testing.
+│   │     └─ Tips — CubeMX refinements and runtime insights.
+│   │
+│   └── [aKaReZa 121 - First Project - PART C]
+│         ├─ Keil IDE — Logic Analyzer, Simulator, advanced tips.
+│         ├─ Export — Variable logging and external analysis.
+│         ├─ CubeProgrammer — Flashing and memory inspection.
+│         ├─ CubeMX — Advanced configuration tips.
+│         ├─ Clock — HSI calibration and HSI vs HSE comparison.
+│         └─ ST-Link — Interface setup and usage.
+│
+└── Peripherals
+    └── [aKaReZa 126 - STM32, HAL, GPIO]
+          ├─ GPIO — Concept and importance in STM32.
+          ├─ Modes — Input, Output, Alternate Function, Analog.
+          ├─ CubeMX — New project creation and pin config.
+          ├─ MX_GPIO_Init() — Function review and initialization logic.
+          ├─ HAL Functions — WritePin, TogglePin, ReadPin usage.
+          ├─ Timing — HAL_Delay() for delays and troubleshooting.
+          └─ Speed — GPIO Speed concept and performance impact.
 ```
 
 <table style="border-collapse: collapse;">
@@ -156,6 +166,24 @@ In this section, only **STM32**-related videos are available. These videos are g
         <img src="https://img.youtube.com/vi/E4TNTPMgJMo/maxresdefault.jpg"
              width="360"
              alt="aKaReZa 121 – STM32, First Project - PART C Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr style="background-color: #f9f9f9;">
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/rTIU0vWZKQs">aKaReZa 126 – STM32, HAL, GPIO</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Master the fundamentals of GPIO configuration in STM32 using the HAL Library. This episode walks through pin setup in <strong>Input, Output, Alternate Function, and Analog modes</strong>, project creation in STM32CubeMX, and practical use of HAL functions like <code>HAL_GPIO_WritePin()</code>, <code>HAL_GPIO_TogglePin()</code>, and <code>HAL_GPIO_ReadPin()</code>. You’ll also learn about timing with <code>HAL_Delay()</code>, troubleshooting common issues, and understanding <strong>GPIO Speed</strong> for performance optimization—an essential foundation for any STM32 project.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/rTIU0vWZKQs">
+        <img src="https://img.youtube.com/vi/rTIU0vWZKQs/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 126 – STM32, HAL, GPIO Thumbnail"/>
       </a>
     </td>
   </tr>
