@@ -1,3 +1,5 @@
+# STM32 Compiler Optimization Analysis Report
+
 This report presents a comprehensive analysis of compiler optimization effects on memory utilization for an STM32F446RE bare-metal application developed using STM32 HAL Library.
 
 ### Development Environment
