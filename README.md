@@ -123,6 +123,11 @@ It is part of the STM32 family and is widely used in embedded systems, IoT devic
 - [STM32 RawProject](https://github.com/aKaReZa75/STM32_RawProject_HAL)  
   ---  
   A lightweight and structured STM32F103C8 project template using STM32CubeMX and HAL, tailored for Keil uVision. Includes essential setup files to quickly start new embedded projects with a solid foundation.
+
+
+- [Compiler Optimization Analysis](./KeilOptimizations.md)  
+  ---  
+  A comprehensive analysis and comparison of compiler optimization levels (-O0, -O1, -O2, -O3, -Os, -Oz, -Ofast, -Omax). This report includes detailed Flash and SRAM memory usage metrics, visual comparisons, optimization techniques explanation, and practical recommendations for selecting the optimal compiler settings based on your project requirements.
   
     
 # 💻 How to Use Git and GitHub
