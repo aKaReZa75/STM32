@@ -190,7 +190,7 @@ In this section, only **STM32**-related videos are available. These videos are g
         Master the fundamentals of GPIO configuration in STM32 using the HAL Library. This episode walks through pin setup in <strong>Input, Output, Alternate Function, and Analog modes</strong>, project creation in STM32CubeMX, and practical use of HAL functions like <code>HAL_GPIO_WritePin()</code>, <code>HAL_GPIO_TogglePin()</code>, and <code>HAL_GPIO_ReadPin()</code>. You’ll also learn about timing with <code>HAL_Delay()</code>, troubleshooting common issues, and understanding <strong>GPIO Speed</strong> for performance optimization—an essential foundation for any STM32 project.
       </p>
     </td>
-    <td width="360" valign="top">
+    <td width="360" valign="middle">
       <a href="https://youtu.be/rTIU0vWZKQs">
         <img src="https://img.youtube.com/vi/rTIU0vWZKQs/maxresdefault.jpg"
              width="360"
@@ -208,7 +208,7 @@ In this section, only **STM32**-related videos are available. These videos are g
         Bridge AVR and STM32 environments by adapting the <strong>aLCD library</strong> for STM32 using the HAL framework. This tutorial guides you through <strong>creating a new STM32 project</strong>, <strong>configuring GPIO pins</strong>, and <strong>rewriting the shared header file aKaReZa.h</strong>. You’ll also learn to <strong>refactor LCD functions for HAL</strong>, understand the <strong>core LCD API</strong>, and apply <strong>performance optimization techniques</strong>. Finally, the episode introduces the <strong>STM32-compatible alcd repository</strong>—a practical resource for reusing and enhancing LCD code across platforms.
       </p>
     </td>
-    <td width="360" valign="top">
+    <td width="360" valign="middle">
       <a href="https://youtu.be/XsrOL4_7Ywc">
         <img src="https://img.youtube.com/vi/XsrOL4_7Ywc/maxresdefault.jpg"
              width="360"
