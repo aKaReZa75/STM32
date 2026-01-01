@@ -77,17 +77,27 @@ In this section, only **STM32**-related videos are available. These videos are g
 │       ├─ HAL Functions — WritePin, TogglePin, ReadPin usage.
 │       ├─ Timing — HAL_Delay() for delays and troubleshooting.
 │       └─ Speed — GPIO Speed concept and performance impact.
-│
+|
 └── Display Interfaces
-    └── Alphanumeric LCD
-        └── [aKaReZa 130 - STM32 - HAL, aLCD]
+    ├── Alphanumeric LCD
+    │   └── [aKaReZa 130 - STM32 - HAL, aLCD]
+    │       ├─ Project — Creating a new STM32 project.
+    │       ├─ GPIO — Pin configuration for LCD connection.
+    │       ├─ Header — Rewriting aKaReZa.h for STM32.
+    │       ├─ Refactor — Adapting LCD functions to HAL.
+    │       ├─ API — Core LCD functions overview.
+    │       ├─ Performance — Techniques to boost display speed.
+    │       └─ Repository — STM32-compatible alcd library usage.
+    │
+    └── 7-Segment Displays
+        └── [aKaReZa 133 - STM32 - HAL, 7Segments]
+            ├─ Intro — How seven-segment displays work.
+            ├─ Hardware — Requirements and pin connections.
             ├─ Project — Creating a new STM32 project.
-            ├─ GPIO — Pin configuration for LCD connection.
-            ├─ Header — Rewriting aKaReZa.h for STM32.
-            ├─ Refactor — Adapting LCD functions to HAL.
-            ├─ API — Core LCD functions overview.
-            ├─ Performance — Techniques to boost display speed.
-            └─ Repository — STM32-compatible alcd library usage.
+            ├─ Control — Driving segments manually with HAL_GPIO.
+            ├─ Display — Function to show numbers on 7-seg.
+            ├─ Multiplexing — Multi-digit display implementation.
+            └─ Shadow Fix — Solving the shadow effect at high refresh rates.
 ```
 
 <table style="border-collapse: collapse;">
@@ -216,7 +226,25 @@ In this section, only **STM32**-related videos are available. These videos are g
       </a>
     </td>
   </tr>
-  
+
+  <tr style="background-color: #f9f9f9;">
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/iweC5cFSfpw">aKaReZa 133 – STM32, HAL, 7Segments</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn how to drive <strong>seven‑segment displays</strong> using STM32 and HAL. This episode covers hardware wiring, manual segment control with <code>HAL_GPIO</code>, writing a clean number‑display function, and implementing <strong>multiplexing</strong> for multi‑digit displays. You’ll also learn how to identify and fix the <strong>shadow effect</strong> at high refresh rates, making this a solid foundation for building smooth and reliable numeric interfaces in embedded systems.
+      </p>
+    </td>
+    <td width="360" valign="center">
+      <a href="https://youtu.be/iweC5cFSfpw">
+        <img src="https://img.youtube.com/vi/iweC5cFSfpw/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 133 – STM32, HAL, 7Segments Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
 </table>
 
 # 🌟 Support Me
