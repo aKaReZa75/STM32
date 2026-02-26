@@ -69,14 +69,27 @@ In this section, only **STM32**-related videos are available. These videos are g
 │         └─ ST-Link — Interface setup and usage.
 │
 ├── GPIO (General Purpose Input Output)
-│   └── [aKaReZa 126 - STM32, HAL, GPIO]
-│       ├─ GPIO — Concept and importance in STM32.
-│       ├─ Modes — Input, Output, Alternate Function, Analog.
-│       ├─ CubeMX — New project creation and pin config.
-│       ├─ MX_GPIO_Init() — Function review and initialization logic.
-│       ├─ HAL Functions — WritePin, TogglePin, ReadPin usage.
-│       ├─ Timing — HAL_Delay() for delays and troubleshooting.
-│       └─ Speed — GPIO Speed concept and performance impact.
+│   ├── [aKaReZa 126 - STM32, HAL, GPIO]
+│   │   ├─ GPIO — Concept and importance in STM32.
+│   │   ├─ Modes — Input, Output, Alternate Function, Analog.
+│   │   ├─ CubeMX — New project creation and pin config.
+│   │   ├─ MX_GPIO_Init() — Function review and initialization logic.
+│   │   ├─ HAL Functions — WritePin, TogglePin, ReadPin usage.
+│   │   ├─ Timing — HAL_Delay() for delays and troubleshooting.
+│   │   └─ Speed — GPIO Speed concept and performance impact.
+│   │
+│   └── External Interrupts
+│       └── [aKaReZa 137 - STM32 - HAL, eInterrupts]
+│           ├─ NVIC — Understanding interrupt controller structure.
+│           ├─ EXTI — Key features and how it works in STM32.
+│           ├─ Mapping — How EXTI lines connect to GPIO pins.
+│           ├─ Project — Creating a new EXTI-enabled project.
+│           ├─ CubeMX — Full EXTI configuration workflow.
+│           ├─ ISR — Writing interrupt service routines.
+│           ├─ Multi‑Interrupt — Handling multiple EXTI lines.
+│           ├─ Pull Resistors — Internal pull-up/pull-down behavior.
+│           ├─ Concepts — Core interrupt principles.
+│           └─ Cortex — Overview of internal Cortex interrupts.
 |
 └── Display Interfaces
     ├── Alphanumeric LCD
@@ -241,6 +254,24 @@ In this section, only **STM32**-related videos are available. These videos are g
         <img src="https://img.youtube.com/vi/iweC5cFSfpw/maxresdefault.jpg"
              width="360"
              alt="aKaReZa 133 – STM32, HAL, 7Segments Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/ibdetet19BY">aKaReZa 137 – STM32, HAL, eInterrupts</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        A clear and practical introduction to <strong>External Interrupts (EXTI)</strong> and the <strong>NVIC</strong> system in STM32. This episode explains how EXTI lines map to GPIO pins, how interrupt priorities work, how to configure multiple interrupts in CubeMX, and how to write ISR functions correctly. You also learn about internal pull‑ups/pull‑downs, core interrupt concepts, and Cortex internal interrupts—everything needed for reliable interrupt‑driven design.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/ibdetet19BY">
+        <img src="https://img.youtube.com/vi/ibdetet19BY/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 137 – STM32, HAL, eInterrupts Thumbnail"/>
       </a>
     </td>
   </tr>
