@@ -91,26 +91,39 @@ In this section, only **STM32**-related videos are available. These videos are g
 │           ├─ Concepts — Core interrupt principles.
 │           └─ Cortex — Overview of internal Cortex interrupts.
 |
-└── Display Interfaces
-    ├── Alphanumeric LCD
-    │   └── [aKaReZa 130 - STM32 - HAL, aLCD]
-    │       ├─ Project — Creating a new STM32 project.
-    │       ├─ GPIO — Pin configuration for LCD connection.
-    │       ├─ Header — Rewriting aKaReZa.h for STM32.
-    │       ├─ Refactor — Adapting LCD functions to HAL.
-    │       ├─ API — Core LCD functions overview.
-    │       ├─ Performance — Techniques to boost display speed.
-    │       └─ Repository — STM32-compatible alcd library usage.
-    │
-    └── 7-Segment Displays
-        └── [aKaReZa 133 - STM32 - HAL, 7Segments]
-            ├─ Intro — How seven-segment displays work.
-            ├─ Hardware — Requirements and pin connections.
-            ├─ Project — Creating a new STM32 project.
-            ├─ Control — Driving segments manually with HAL_GPIO.
-            ├─ Display — Function to show numbers on 7-seg.
-            ├─ Multiplexing — Multi-digit display implementation.
-            └─ Shadow Fix — Solving the shadow effect at high refresh rates.
+├── Display Interfaces
+│   ├── Alphanumeric LCD
+│   │   └── [aKaReZa 130 - STM32 - HAL, aLCD]
+│   │       ├─ Project — Creating a new STM32 project.
+│   │       ├─ GPIO — Pin configuration for LCD connection.
+│   │       ├─ Header — Rewriting aKaReZa.h for STM32.
+│   │       ├─ Refactor — Adapting LCD functions to HAL.
+│   │       ├─ API — Core LCD functions overview.
+│   │       ├─ Performance — Techniques to boost display speed.
+│   │       └─ Repository — STM32-compatible alcd library usage.
+│   │
+│   └── 7-Segment Displays
+│       └── [aKaReZa 133 - STM32 - HAL, 7Segments]
+│           ├─ Intro — How seven-segment displays work.
+│           ├─ Hardware — Requirements and pin connections.
+│           ├─ Project — Creating a new STM32 project.
+│           ├─ Control — Driving segments manually with HAL_GPIO.
+│           ├─ Display — Function to show numbers on 7-seg.
+│           ├─ Multiplexing — Multi-digit display implementation.
+│           └─ Shadow Fix — Solving the shadow effect at high refresh rates.
+│
+└── Communication Protocols
+    └── USART (Universal Synchronous/Asynchronous Receiver/Transmitter)
+        └── [aKaReZa 140 - STM32 - HAL, USART]
+            ├─ Intro — UART peripheral and main features.
+            ├─ Block Diagram — Internal UART structure review.
+            ├─ BaudRate — Correct calculation and configuration.
+            ├─ CubeMX — USART1 configuration in STM32CubeMX.
+            ├─ TX Methods — Different ways to transmit data.
+            ├─ Timeout — Role and impact on UART behavior.
+            ├─ DMA — TX/RX with DMA and its advantages.
+            ├─ Interrupt RX — Implementing a Ring Buffer.
+            └─ Idle Line — Detection and practical use 
 ```
 
 <table style="border-collapse: collapse;">
@@ -272,6 +285,24 @@ In this section, only **STM32**-related videos are available. These videos are g
         <img src="https://img.youtube.com/vi/ibdetet19BY/maxresdefault.jpg"
              width="360"
              alt="aKaReZa 137 – STM32, HAL, eInterrupts Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/iOhUO5vuSTs">aKaReZa 140 – STM32, HAL, USART</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        A systematic, engineering‑grade introduction to <strong>USART</strong> on STM32. This episode explains UART core features and block diagram, correct <strong>BaudRate calculation</strong>, USART1 configuration in CubeMX, different transmit/receive methods, the role of <strong>Timeout</strong>, using <strong>DMA</strong> for efficient data transfer, implementing <strong>interrupt‑based reception with a Ring Buffer</strong>, and detecting the <strong>Idle Line</strong> for robust frame handling.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/iOhUO5vuSTs">
+        <img src="https://img.youtube.com/vi/iOhUO5vuSTs/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 140 – STM32, HAL, USART Thumbnail"/>
       </a>
     </td>
   </tr>
