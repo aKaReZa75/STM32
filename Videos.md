@@ -300,7 +300,7 @@ In this section, only **STM32**-related videos are available. These videos are g
     </td>
     <td width="360" valign="top">
       <a href="https://youtu.be/rsLly4P2wQs">
-        <img src="https://youtu.be/rsLly4P2wQs/maxresdefault.jpg"
+        <img src="https://img.youtube.com/vi/rsLly4P2wQs/maxresdefault.jpg"
              width="360"
              alt="aKaReZa 140 – STM32, HAL, USART Thumbnail"/>
       </a>
