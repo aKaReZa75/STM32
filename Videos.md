@@ -292,15 +292,15 @@ In this section, only **STM32**-related videos are available. These videos are g
   <tr>
     <td valign="top" style="padding: 0 10px;">
       <h3 style="margin: 0;">
-        <a href="https://youtu.be/iOhUO5vuSTs">aKaReZa 140 – STM32, HAL, USART</a>
+        <a href="https://youtu.be/rsLly4P2wQs">aKaReZa 140 – STM32, HAL, USART</a>
       </h3>
       <p style="margin: 8px 0 0;">
         A systematic, engineering‑grade introduction to <strong>USART</strong> on STM32. This episode explains UART core features and block diagram, correct <strong>BaudRate calculation</strong>, USART1 configuration in CubeMX, different transmit/receive methods, the role of <strong>Timeout</strong>, using <strong>DMA</strong> for efficient data transfer, implementing <strong>interrupt‑based reception with a Ring Buffer</strong>, and detecting the <strong>Idle Line</strong> for robust frame handling.
       </p>
     </td>
     <td width="360" valign="top">
-      <a href="https://youtu.be/iOhUO5vuSTs">
-        <img src="https://img.youtube.com/vi/iOhUO5vuSTs/maxresdefault.jpg"
+      <a href="https://youtu.be/rsLly4P2wQs">
+        <img src="https://youtu.be/rsLly4P2wQs/maxresdefault.jpg"
              width="360"
              alt="aKaReZa 140 – STM32, HAL, USART Thumbnail"/>
       </a>
