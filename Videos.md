@@ -112,18 +112,29 @@ In this section, only **STM32**-related videos are available. These videos are g
 │           ├─ Multiplexing — Multi-digit display implementation.
 │           └─ Shadow Fix — Solving the shadow effect at high refresh rates.
 │
-└── Communication Protocols
-    └── USART (Universal Synchronous/Asynchronous Receiver/Transmitter)
-        └── [aKaReZa 140 - STM32 - HAL, USART]
-            ├─ Intro — UART peripheral and main features.
-            ├─ Block Diagram — Internal UART structure review.
-            ├─ BaudRate — Correct calculation and configuration.
-            ├─ CubeMX — USART1 configuration in STM32CubeMX.
-            ├─ TX Methods — Different ways to transmit data.
-            ├─ Timeout — Role and impact on UART behavior.
-            ├─ DMA — TX/RX with DMA and its advantages.
-            ├─ Interrupt RX — Implementing a Ring Buffer.
-            └─ Idle Line — Detection and practical use 
+├── Communication Protocols
+│   └── USART (Universal Synchronous/Asynchronous Receiver/Transmitter)
+│       └── [aKaReZa 140 - STM32 - HAL, USART]
+│           ├─ Intro — UART peripheral and main features.
+│           ├─ Block Diagram — Internal UART structure review.
+│           ├─ BaudRate — Correct calculation and configuration.
+│           ├─ CubeMX — USART1 configuration in STM32CubeMX.
+│           ├─ TX Methods — Different ways to transmit data.
+│           ├─ Timeout — Role and impact on UART behavior.
+│           ├─ DMA — TX/RX with DMA and its advantages.
+│           ├─ Interrupt RX — Implementing a Ring Buffer.
+│           └─ Idle Line — Detection and practical use cases.
+│
+└── Timers
+    └── [aKaReZa 144 - STM32, HAL, Timer, Accurate Time - Mode 1]
+        ├─ Timer Types — Advanced, General-Purpose, Basic timers.
+        ├─ Architecture — Block diagram and internal operation.
+        ├─ Clock — System clock configuration and analysis.
+        ├─ Timing — Parameter calculation and timer setup.
+        ├─ Counter — Counting mechanisms and timer registers.
+        ├─ HAL APIs — Timer functions and usage.
+        ├─ 7-Segment — Display refreshing using timers.
+        └─ Scheduling — Creating precise timing systems.
 ```
 
 <table style="border-collapse: collapse;">
@@ -306,6 +317,23 @@ In this section, only **STM32**-related videos are available. These videos are g
       </a>
     </td>
   </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/KfNeLlAj2PU">aKaReZa 144 – STM32, HAL, Timer, Accurate Time - Mode 1</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn the fundamentals of <strong>STM32 timers</strong> and how to build accurate timing systems using the HAL library. This episode covers the different timer categories, timer architecture, clock configuration, timing calculations, and HAL timer APIs. You'll also see how timers can be used to <strong>refresh a 7-segment display</strong> and create precise scheduling mechanisms for embedded applications.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/KfNeLlAj2PU">
+        <img src="https://img.youtube.com/vi/KfNeLlAj2PU/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 144 – STM32, HAL, Timer, Accurate Time - Mode 1 Thumbnail"/>
+      </a>
+    </td>
 
 </table>
 
