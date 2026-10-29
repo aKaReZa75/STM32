@@ -124,17 +124,30 @@ In this section, only **STM32**-related videos are available. These videos are g
 │           ├─ DMA — TX/RX with DMA and its advantages.
 │           ├─ Interrupt RX — Implementing a Ring Buffer.
 │           └─ Idle Line — Detection and practical use cases.
+|
+├── Timers
+│   └── [aKaReZa 144 - STM32, HAL, Timer, Accurate Time - Mode 1]
+│         ├─ Timer Types — Advanced, General-Purpose, Basic timers.
+│         ├─ Architecture — Block diagram and internal operation.
+│         ├─ Clock — System clock configuration and analysis.
+│         ├─ Timing — Parameter calculation and timer setup.
+│         ├─ Counter — Counting mechanisms and timer registers.
+│         ├─ HAL APIs — Timer functions and usage.
+│         ├─ 7-Segment — Display refreshing using timers.
+│         └─ Scheduling — Creating precise timing systems.
 │
-└── Timers
-    └── [aKaReZa 144 - STM32, HAL, Timer, Accurate Time - Mode 1]
-        ├─ Timer Types — Advanced, General-Purpose, Basic timers.
-        ├─ Architecture — Block diagram and internal operation.
-        ├─ Clock — System clock configuration and analysis.
-        ├─ Timing — Parameter calculation and timer setup.
-        ├─ Counter — Counting mechanisms and timer registers.
-        ├─ HAL APIs — Timer functions and usage.
-        ├─ 7-Segment — Display refreshing using timers.
-        └─ Scheduling — Creating precise timing systems.
+└── Analog
+    └── [aKaReZa 147 - STM32 - HAL, Analog - ADC - PART A]
+          ├─ ADC Features — Key features of the ADC in STM32 microcontrollers.
+          ├─ Block Diagram — Internal structure and operation of the ADC.
+          ├─ Project Setup — Creating a new STM32 project.
+          ├─ CubeMX Configuration — Configuring the ADC using CubeMX.
+          ├─ Polling Method — Reading ADC values using polling.
+          ├─ Digital-to-Voltage — Converting the ADC digital value to voltage.
+          ├─ Continuous Conversion — Setting up Continuous Conversion Mode.
+          ├─ Sampling Time (TS) — Effect of sampling time on input impedance and measurement accuracy.
+          ├─ Calibration — ADC calibration and how to perform it.
+          └─ Averaging Filter — Reducing fluctuations in readings using an averaging filter.     
 ```
 
 <table style="border-collapse: collapse;">
@@ -334,6 +347,24 @@ In this section, only **STM32**-related videos are available. These videos are g
              alt="aKaReZa 144 – STM32, HAL, Timer, Accurate Time - Mode 1 Thumbnail"/>
       </a>
     </td>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/Wgh020GEs5w">aKaReZa 147 – STM32, HAL, Analog - ADC - PART A</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn the fundamentals of <strong>ADC (Analog-to-Digital Conversion)</strong> in STM32 microcontrollers using the HAL library. This episode covers ADC architecture, CubeMX configuration, polling-based data acquisition, voltage calculation, continuous conversion mode, ADC calibration, and the impact of sampling time on measurement accuracy. You'll also learn how to use an <strong>averaging filter</strong> to reduce noise and improve the stability of analog measurements in real-world embedded applications.
+      </p>
+    </td>
+    <td width="360" valign="middle" style="padding: 0;">
+      <a href="https://youtu.be/Wgh020GEs5w">
+        <img src="https://img.youtube.com/vi/Wgh020GEs5w/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 147 – STM32, HAL, Analog - ADC - PART A Thumbnail"/>
+      </a>
+    </td>
+  </tr>
 
 </table>
 
